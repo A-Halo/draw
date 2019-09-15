@@ -1,0 +1,4 @@
+Java中的动态代理依靠反射来实现，代理类和委托类不需要实现同一个接口。
+委托类需要实现接口，否则无法创建动态代理。代理类在JVM运行时动态生成，而不是编译期就能确定。
+Java动态代理主要涉及到两个类：java.lang.reflect.Proxy和java.lang.reflect.InvocationHandler。
+代理类需要实现InvocationHandler接口或者创建匿名内部类，而Proxy用于创建动态动态。
